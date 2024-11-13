@@ -2,6 +2,19 @@
   --container-max: 56rem;
 }
 
+.d-flex {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 150px;
+}
+
+.d-flex2 {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-evenly;
+}
+
 body {
   margin: 0;
   font-family: sans-serif;
@@ -21,6 +34,9 @@ body {
 
 .card {
   background-color: rgba(0, 0, 0, 0.1);
+  min-width: 20rem;
+  max-width: 20rem;
+  flex-grow: 1;
 }
 
 @media (max-width: 600px) {
