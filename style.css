@@ -4,9 +4,9 @@
 
 .d-flex {
   display: flex;
+  margin: 4rem;
   justify-content:space-around;
   align-items: center;
-  height: 150px;
 }
 
 .d-flex2 {
@@ -37,6 +37,7 @@ body {
   min-width: 20rem;
   max-width: 20rem;
   flex-grow: 1;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
